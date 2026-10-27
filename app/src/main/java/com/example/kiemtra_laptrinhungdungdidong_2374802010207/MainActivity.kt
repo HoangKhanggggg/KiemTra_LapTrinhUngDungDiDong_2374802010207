@@ -1,5 +1,6 @@
 package com.example.kiemtra_laptrinhungdungdidong_2374802010207
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Patterns
@@ -49,9 +50,13 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // 4. Hợp lệ hoàn toàn
+            // 4. Hợp lệ hoàn toàn -> Chuyển sang ProfileActivity qua Intent
             tvStatus.text = "Xác thực thành công!"
             tvStatus.setTextColor(Color.parseColor("#4CAF50"))
+
+            val intent = Intent(this, ProfileActivity::class.java)
+            intent.putExtra("USER_EMAIL", email)
+            startActivity(intent)
         }
     }
 }

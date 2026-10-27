@@ -12,3 +12,7 @@
 
 !\[Validation Success](screenshots/cau1\_validation\_success.png)
 
+\## Minh chứng Câu 2
+
+!\[Profile Intent](screenshots/cau2\_profile\_intent.png)
+
