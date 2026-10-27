@@ -16,3 +16,9 @@
 
 !\[Profile Intent](screenshots/cau2\_profile\_intent.png)
 
+\## Minh chứng Câu 3
+
+!\[ListView Display](screenshots/cau3\_listview\_display.png)
+
+!\[Item Click Toast](screenshots/cau3\_item\_click\_toast.png)
+
